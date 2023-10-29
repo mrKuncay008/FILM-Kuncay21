@@ -1,0 +1,25 @@
+.imgCard:hover {
+    transition: .1s;
+    -ms-transform: scale(1.1); /* IE 9 */
+    -webkit-transform: scale(1.1); /* Safari 3-8 */
+    transform: scale(1.1);
+}
+
+.imgCard{
+    position: relative;
+    display: flex;
+    bottom: 20%;
+    padding: 50px auto;
+    margin: 25% 0 auto;
+}
+
+.titcard {
+    background-color: rgb(47, 47, 47);
+    color: aliceblue;
+    font-weight: 700;
+    font-style: italic;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.Cata {
+    background-color: rgb(23, 23, 23);
+}

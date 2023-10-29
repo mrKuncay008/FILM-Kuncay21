@@ -1,0 +1,197 @@
+:root {
+  scroll-behavior: smooth;
+}
+
+.Bg {
+    height: 100%;
+    width: 100%;
+    margin:0;
+    padding:0;
+    border:0;
+    position: relative;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    opacity: 1;
+      mix-blend-mode: cover;
+      background-image:  linear-gradient(140deg, rgba(0, 0, 0, 0.827), rgba(0, 0, 0, 0.005)), url('../img/jatayu.jpg');
+}
+.Logo {
+  margin: 20px;
+}
+
+* {
+  box-sizing: border-box;
+}
+.row {
+    font-size:small;
+  }
+
+.col-sm0 {
+    display: block;
+    position: relative;
+    width: auto;
+    height: auto;
+    margin: auto 30px 10px;
+    margin-top: 55px;
+}
+
+.flex-container {
+  display: flex;
+  position: relative;
+  margin: 0 auto;
+  margin: auto -45px;
+}
+
+.fade1{animation:fadeInUp 2s ease backwards;}
+@keyframes fadeInUp{
+  0%{transform:translate(0px, 100px);
+     opacity: 0;}
+  100%{transform:translate(0px, 0); 
+        opacity: 1;
+      }
+    }
+
+  .fade2 {
+    animation:fadeInUp 2s ease backwards;
+    animation-delay: 2s;
+  }
+    @keyframes fadeInUp{
+      0%{transform:translate(0px, 100px);
+         opacity: 0;}
+      100%{transform:translate(0px, 0); 
+            opacity: 1;
+          }
+        }
+
+.flex-item-left {
+  margin: auto 60px;
+  flex: 100%;
+}
+.flex-item-center {
+  margin: auto 60px;
+  flex: 100%;
+}
+.flex-item-right {
+  margin: auto 60px;
+  flex: 100%;
+}
+
+@media (max-width: 750px) {
+        .flex-container {
+        flex-direction: column;
+    }
+}
+
+.judulA {
+  font-size: medium;
+  color: whitesmoke;
+  font-weight: bold; 
+  font-family:  sans-serif;
+}
+.bioclass {
+  height: 770px;
+  width: auto;
+  margin-bottom: 30px;
+  padding: 30px;
+  display: block;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.contHead {
+  display: block;
+  line-height: 20px;
+  height: 57.2px;
+  color: aliceblue;
+  width: auto;
+  margin: 0 0 15px 0;
+  padding: 0 0 10px 0;
+}
+.contHead h2 {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 25px;
+  font-weight: 600;
+}
+.content {
+  height: 395.167px;
+  width: auto;
+  margin: 30px;
+  border-radius: 7px;
+  background-color: rgba(0, 0, 0, 0.559);
+  position: relative;
+  display: block;
+  overflow: auto;
+}
+.content img {
+  position: relative;
+  height: 290.167px;
+  width: auto;
+  padding: 0 5px 0 5px;
+  min-height: 1px;
+  max-width: 100%;
+  float: left;
+}
+
+.contentXs9 {
+  position: relative;
+  display: block;
+  float: left;
+  font-size: 14px;
+  line-height: 1.45;
+  margin-bottom: .25rem !important;
+  height: 400px;
+  width: 600.367px;
+  padding: 0 5px 0 5px;
+  max-height: 1px;
+  overflow: auto;
+}
+.contentXs9 h2 {
+  color: aliceblue;
+  font-size: 20px;
+  font-weight: bold;
+  line-height: 20px;
+  display: block;
+  height: 20px;
+}
+.teksCont {
+    color: rgb(255, 255, 255); /* Ganti warna teks sesuai kebutuhan */
+    font-size: 14px;
+    line-height: 20px;
+    display: block;
+    height: auto;
+  
+}
+
+@media (max-width: 600px) {
+  .bioclass {
+    height: auto; /* Ubah ketinggian sesuai kebutuhan */
+    width: 100%; /* Sesuaikan lebar */
+  }
+
+  .content {
+    margin: 10px; /* Sesuaikan margin */
+    /* Tambahkan gaya lain yang sesuai */
+  }
+
+  .content img {
+    width: 100%; /* Agar gambar mengisi lebar kontainer */
+    height: auto; /* Hindari tumpang tindih */
+    /* Tambahkan gaya lain yang sesuai */
+  }
+
+  .contentXs9 {
+    width: 100%; /* Sesuaikan lebar */
+    /* Tambahkan gaya lain yang sesuai */
+  }
+}
+
+@media (max-width: 750px) {
+  .bioclassmain {
+  flex-direction: column;
+}
+}
+.imgTumb {
+  width: 70%;
+  height: 20%;
+  margin: auto 50px 20px;
+  flex: 100%;
+}

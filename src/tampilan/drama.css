@@ -1,0 +1,44 @@
+:root {
+    scroll-behavior: smooth;
+    box-sizing: border-box;
+  }
+.main {
+    position: relative;
+    height: 190vh;
+    width: 100%;
+    background-color: rgb(255, 255, 255);
+    margin:0;
+	padding:0;
+	border:0;
+    position: relative;
+} 
+.bod {
+    position: relative;
+    height: auto;
+    max-width: 90%;
+    margin: 100px auto;
+    padding: auto;
+    border: none;
+}
+.titName {
+    font-weight: bold;
+    font-size: 20px;
+    font-style: normal;
+    color: rgb(233, 32, 32);
+    text-shadow: 2px 0px 0px black; 
+}
+
+.link {
+    text-decoration: none;
+}
+
+.titDesc {
+    font-size: 10px;
+}
+
+.bod:hover {
+    transition: .1s;
+    -ms-transform: scale(1.1); /* IE 9 */
+    -webkit-transform: scale(1.1); /* Safari 3-8 */
+    transform: scale(1.1);
+}
