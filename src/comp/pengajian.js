@@ -23,8 +23,8 @@ const Ngaji = () => {
                       <h2 className='judulA'>Belajar Agar bebas dari Kedunguan dan pembodohan !</h2>
                 </div>
                 <div className="flex-item-center">
-                <iframe width={350} height={245} src="https://www.youtube.com/embed/xkzt73CVF_E"  allow="fullscreen;" />
-                        <h2 className='judulA'>Ciri Orang tidak Tersesat</h2>
+                <iframe width={350} height={245} src="https://www.youtube.com/embed/Fx1BgiTYUAQ"  allow="fullscreen;" />
+                        <h2 className='judulA'>Syafa`at Tidak Bisa Didapat Tanpa Terikat</h2>
                 </div>
                 <div  className="flex-item-right">
                 <iframe width={350} height={245} src="https://www.youtube.com/embed/Hp2eu5_pwTk"  allow="fullscreen;" />

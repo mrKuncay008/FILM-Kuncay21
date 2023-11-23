@@ -15,6 +15,15 @@ npx create-react-app (App). Membuat direct src baru dengan npmx
 - Untuk Mengistall Router link JS di react(Agar bisa saling berpindah / direct page lain)
      npm i react-router-dom
 
+https://mrkuncay008.github.io/FILM-Kuncay21/
+
+// Uploud hosting ke github pages
+ - npm install gh-pages --save-dev
+ - "homepage": "https://{nama git}.github.io/Nama repo"
+ - "scripts": {
++   "predeploy": "npm run build",
++   "deploy": "gh-pages -d build",}
+ - npm run deploy
 
 # Getting Started with Create React App
 
