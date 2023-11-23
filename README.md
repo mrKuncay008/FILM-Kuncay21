@@ -24,6 +24,7 @@ https://mrkuncay008.github.io/FILM-Kuncay21/
 +   "predeploy": "npm run build",
 +   "deploy": "gh-pages -d build",}
  - npm run deploy
+ - Jika Update Project di git pull
 
 # Getting Started with Create React App
 
