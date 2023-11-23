@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/FILM-Kuncay21/static/css/main.0eb48984.css",
-    "main.js": "/FILM-Kuncay21/static/js/main.9f666d1b.js",
+    "main.js": "/FILM-Kuncay21/static/js/main.c0171cfb.js",
     "static/js/787.15e7ceb1.chunk.js": "/FILM-Kuncay21/static/js/787.15e7ceb1.chunk.js",
     "static/media/landing.jpg": "/FILM-Kuncay21/static/media/landing.14370050cecc187b706d.jpg",
     "static/media/actionimg.jpg": "/FILM-Kuncay21/static/media/actionimg.9818d2c0440b8b904552.jpg",
@@ -14,11 +14,11 @@
     "static/media/meong.png": "/FILM-Kuncay21/static/media/meong.ba034fa72e60d2f8e7b2.png",
     "index.html": "/FILM-Kuncay21/index.html",
     "main.0eb48984.css.map": "/FILM-Kuncay21/static/css/main.0eb48984.css.map",
-    "main.9f666d1b.js.map": "/FILM-Kuncay21/static/js/main.9f666d1b.js.map",
+    "main.c0171cfb.js.map": "/FILM-Kuncay21/static/js/main.c0171cfb.js.map",
     "787.15e7ceb1.chunk.js.map": "/FILM-Kuncay21/static/js/787.15e7ceb1.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.0eb48984.css",
-    "static/js/main.9f666d1b.js"
+    "static/js/main.c0171cfb.js"
   ]
 }
