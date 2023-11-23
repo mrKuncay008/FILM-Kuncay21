@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/FILM-Kuncay21/static/css/main.0eb48984.css",
+    "main.js": "/FILM-Kuncay21/static/js/main.9f666d1b.js",
+    "static/js/787.15e7ceb1.chunk.js": "/FILM-Kuncay21/static/js/787.15e7ceb1.chunk.js",
+    "static/media/landing.jpg": "/FILM-Kuncay21/static/media/landing.14370050cecc187b706d.jpg",
+    "static/media/actionimg.jpg": "/FILM-Kuncay21/static/media/actionimg.9818d2c0440b8b904552.jpg",
+    "static/media/jatayu.jpg": "/FILM-Kuncay21/static/media/jatayu.4c593c78924f7da29d2f.jpg",
+    "static/media/citizen.jpg": "/FILM-Kuncay21/static/media/citizen.c036f09558ce00347a1f.jpg",
+    "static/media/dramaimg.jpg": "/FILM-Kuncay21/static/media/dramaimg.9aafa734b98384765dda.jpg",
+    "static/media/bpk.jpg": "/FILM-Kuncay21/static/media/bpk.769f4b10849d5ac2004b.jpg",
+    "static/media/whoami.jpg": "/FILM-Kuncay21/static/media/whoami.089138b58a1aa82d9516.jpg",
+    "static/media/pomosda-logo.png": "/FILM-Kuncay21/static/media/pomosda-logo.ffe4fc274fdeb37a6eb0.png",
+    "static/media/meong.png": "/FILM-Kuncay21/static/media/meong.ba034fa72e60d2f8e7b2.png",
+    "index.html": "/FILM-Kuncay21/index.html",
+    "main.0eb48984.css.map": "/FILM-Kuncay21/static/css/main.0eb48984.css.map",
+    "main.9f666d1b.js.map": "/FILM-Kuncay21/static/js/main.9f666d1b.js.map",
+    "787.15e7ceb1.chunk.js.map": "/FILM-Kuncay21/static/js/787.15e7ceb1.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.0eb48984.css",
+    "static/js/main.9f666d1b.js"
+  ]
+}
