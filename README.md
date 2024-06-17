@@ -1,30 +1,29 @@
-# Web-Project
-Project Web saya 
-Folder /FILM KUNCAY
-Di buat dengan react:
+# Film Kuncay 21
+## _Project web_
 
-npx create-react-app (App). Membuat direct src baru dengan npmx
+[![Website perso.crans.org](https://img.shields.io/website-up-down-green-red/https/perso.crans.org.svg)](https://mrkuncay008.github.io/FILM-Kuncay21/)
 
-- Untuk mengisntall bootsrap di react:
-    npm install react-bootstrap bootstrap
+Di buat dengan :
+![React](https://img.shields.io/badge/-React-61DBFB?style=for-the-badge&labelColor=black&logo=react&logoColor=61DBFB) ![Bootstrap](https://img.shields.io/badge/Bootstrap-563D7C?style=for-the-badge&logo=bootstrap&logoColor=white)
 
-- Untuk Menginsatall JS bootsrap di react:
-   1) npm install bootstrap jquery --save
-   2) npm install popper.js --save
+```sh
+npm install react-bootstrap bootstrap
+npm install bootstrap jquery --save
+npm install popper.js --save
+-   (Agar bisa saling berpindah / direct page lain)
+npm i react-router-dom
+```
+## Uploud hosting ke github pages
 
-- Untuk Mengistall Router link JS di react(Agar bisa saling berpindah / direct page lain)
-     npm i react-router-dom
+    npm install gh-pages --save-dev
+    "homepage": "https://{nama git}.github.io/Nama repo"
+    "scripts": {
 
-https://mrkuncay008.github.io/FILM-Kuncay21/
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",}
 
-// Uploud hosting ke github pages
- - npm install gh-pages --save-dev
- - "homepage": "https://{nama git}.github.io/Nama repo"
- - "scripts": {
-+   "predeploy": "npm run build",
-+   "deploy": "gh-pages -d build",}
- - npm run deploy
- - Jika Update Project di git pull
+    npm run deploy
+    Jika Update Project di git pull
 
 # Getting Started with Create React App
 
@@ -67,32 +66,3 @@ Instead, it will copy all the configuration files and the transitive dependencie
 
 You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
 
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
